@@ -17,5 +17,11 @@ env'''
       }
     }
 
+    stage('Run ') {
+      steps {
+        sh './run.sh'
+      }
+    }
+
   }
 }
