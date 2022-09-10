@@ -25,7 +25,7 @@ env'''
 
     stage('Test') {
       steps {
-        sh '''-python3 ./testcript/00_test_script.py
+        sh '''python3 ./test_script/00_test_api.py
 '''
       }
     }
