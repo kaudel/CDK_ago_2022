@@ -9,7 +9,7 @@ response = requests.request("GET",API_URL)
 print(response.status_code)
 print(response.text)
 
-if response.status_code != 200:
+if response.status_code != 200: 
     print('Se activo fail')
     exit(1)
 
