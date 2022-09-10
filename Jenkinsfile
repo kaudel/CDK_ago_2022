@@ -23,5 +23,12 @@ env'''
       }
     }
 
+    stage('Test') {
+      steps {
+        sh '''-python3 ./testcript/00_test_script.py
+'''
+      }
+    }
+
   }
 }
